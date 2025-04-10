@@ -8,4 +8,5 @@ COPY target/*.jar $APP_HOME/
 
 WORKDIR $APP_HOME
 
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "bloggingapp-0.0.${BUILD_NUMBER}.jar"]
+
